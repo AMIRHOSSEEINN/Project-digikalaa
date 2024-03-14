@@ -1,0 +1,13 @@
+.digiplus {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 20px;  
+  .digiplus-70 {
+    width: 70%;
+    height: inherit;
+    background-color: mediumvioletred;
+  }
+}

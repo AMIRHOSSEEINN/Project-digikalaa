@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.lavish {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  .entkhab {
+    width: 70%;
+    column-gap: 18px;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    img {
+      border-radius: 20px;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        width: 40%;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: inset 5px 5px 35px #2b2b2b;
+        margin: 50px auto;
+      }
+      label {
+        display: inline-block;
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 7px;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 50%;
+        height: 30px;
+        display: block;
+        margin-bottom: 7px;
+        transition: 250ms;
+        outline: unset;
+      }
+      textarea {
+        height: 150px;
+        resize: none;
+      }
+      input[type="text"]:focus,
+      input[type="email"]:focus,
+      textarea:focus{
+        width: 100%;
+        background-color: lightgray;
+        border-radius: 5px;
+      }
+      input {
+        all: unset;
+        display: inline-block;
+        width: 100px;
+        height: 30px;
+        background-color: #2b2b2b;
+        border-radius: 6px;
+        text-align: center;
+        color: whitesmoke;
+        text-transform: uppercase;
+        font-size: 18px;
+        transition: 250ms;
+      }
+      input[type=submit]:hover{background-color: blueviolet;}
+    </style>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <label for="FullName">FullName</label>
+      <input
+        type="text"
+        name="FullName"
+        placeholder="FullName...!"
+        id="FullName"
+      />
+      <label for="email">email</label>
+      <input type="email" name="email" placeholder="email...!" id="email" />
+      <label for="comment"></label>
+      <textarea
+        name="comment"
+        id="comment"
+        placeholder="comment...!"
+      ></textarea>
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
+<div class="lavish">
+  <div class="entkhab">
+    <img src="./images/lavish/lavish-1.gif" alt="" />
+    <img src="./images/lavish/lavish-2.png" alt="" />
+  </div>
+</div>

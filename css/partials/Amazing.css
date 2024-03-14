@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+.Amazing_supermarket {
+  width: 100%;
+  height: 110px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  .wonderfull-supermarket {
+    width: 70%;
+    height: 110px;
+    background: #81e080;
+    background: linear-gradient(90deg, #81e080 0%, #2ab128 80%);
+    border-radius: 20px;
+    .amazing-right {
+      display: flex;
+      line-height: 110px;
+      .amazing-right-right {
+        margin-top: 27px;
+        img {
+          width: 60px;
+          height: 60px;
+          margin-right: 43px;
+        }
+      }
+      .amazing-right-center {
+        margin-right: 35px;
+        margin-top: 13px;
+      }
+      .amazing-right-left {
+        display: flex;
+        margin-right: 20px;
+        p {
+          background-color: #39ae00;
+          height: 95px !important;
+          width: 95px !important;
+          margin-top: 5px;
+          text-align: center;
+          line-height: 95px;
+          border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+          outline: 0 silid #39ae00;
+          color: whitesmoke;
+          font-size: 1.2rem;
+          font-weight: bold;
+        }
+      }
+    }
+    .amazing-center {
+      display: flex;
+      width: 95px;
+      height: 0;
+      margin-right: 50px;
+      background-color: white;
+      column-gap: 10px;
+      margin-top: 15px;
+      img {
+        display: flex;
+        flex-direction: row;
+        border-radius: 50%;
+        width: 80px;
+        height: 75px;
+        outline: 0 solid white;
+        outline-offset: 1px;
+      }
+    }
+    .amazing-left {
+      display: flex !important;
+      margin-right: 55px;
+      span {
+        width: 150px;
+        background-color: white;
+        height: 90px;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 90px;
+        color: #83e182;
+        font-weight: bold;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+      }
+      svg {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}

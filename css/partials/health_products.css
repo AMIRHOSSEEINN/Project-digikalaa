@@ -1,0 +1,52 @@
+.health_products {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  .health_products-center {
+    width: 72%;
+    height: inherit;
+    .health_products-box {
+      width: 1320px;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      outline-style: solid;
+      outline-color: rgb(226, 226, 226);
+      outline-width: 1px;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-right: 25px;
+      .health_products-grid {
+        display: grid;
+        grid-template-columns: 330px;
+        height: 400px;
+        .health_products-text {
+          text-align: right;
+          margin-right: 10px;
+          .health_products-top {
+            font-size: 1.6rem;
+            font-weight: bold;
+            font-family: var(--font-family-BNAZNIN);
+          }
+          .health_products-bootom {
+            font-size: 0.9rem;
+          }
+        }
+        .health_products-images {
+          display: grid;
+          grid-template-columns: 155px 165px;
+          & img {
+            height: 150px;
+          }
+          div {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+}

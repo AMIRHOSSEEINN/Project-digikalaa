@@ -1,0 +1,31 @@
+.digiclub {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  .digiclub-body {
+    width: 70%;
+    height: inherit;
+    background-color: #007295;
+    display: flex;
+    border-radius: 20px;
+    .digiclub-right {
+      margin-top: 30px;
+    }
+    .digiclub-left {
+      display: flex;
+      .digiclub-left-item {
+        display: flex;
+        column-gap: 4px;
+        align-items: center;
+        line-height: 10px;
+        margin-right: 750px;
+        & img {
+          height: 70px;
+        }
+      }
+    }
+  }
+}
